@@ -14,7 +14,7 @@ def main():
     
     while True:
         try:
-            user_input = input("Enter a number: ")
+            user_input = input("Enter a numbers: ")
             
             if user_input.lower() == 'done':
                 if numbers:
@@ -38,4 +38,8 @@ def main():
 
 if __name__ == "__main__":
     main()
-#updated
+
+def add(a, b):
+    print("Adding numbers...")   # new line
+    return a + b
+#updated the logic
